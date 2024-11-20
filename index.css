@@ -33,7 +33,7 @@ transition-duration: 2s;
 
 
 .contenedor button:hover{
-    background-color: black;
+  background-color: black;  
     color: red;
     padding: 12 px;
     border: 2px solid blue;
@@ -41,7 +41,14 @@ transition-duration: 2s;
     transition-duration: 1s;
 }
 
+/* Style by tag but only applied to an attribute*/
+a[title] { 
+    background-color: black;
+}
 
+a[href"https://www.google.com.mx/"] { 
+
+}
 
 /* Style by class*/
 .prueba {
