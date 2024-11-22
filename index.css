@@ -81,7 +81,7 @@ header h1 {
     margin: 0;
 }
 
-/* Style by the path of the desired tag, style spefically for the header*/
+/* Style by the path of the desired tag, "Element Selector"*/
 /* Estilos para el menú de navegación */
 nav {
     background-color: #444; /* Color de fondo del menú */
@@ -100,6 +100,7 @@ nav ul li {
     background-color: pink; /* Color de fondo de la lista */
 }
 
+/* Path of elements, "Combinations" */
 nav ul li a {
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     color: white; /* Color del texto del enlace */
@@ -108,12 +109,13 @@ nav ul li a {
     /*background-color: red;  Color de fondo de la lista */
 }
 
+/* Style on element's status "Pseudoclass" */
 nav ul li a:hover {
     background-color: #555; /* Cambia el color de fondo cuando se pasa el mouse */
     border-radius: 100px;
 }
 
-/* Estilos para las secciones */
+/* Estilos para las secciones, "Element Selector */
 section {
     padding: 20px;
     margin: 20px;
@@ -122,7 +124,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de las secciones */
 }
 
-/* Estilos para el pie de página */
+/* Estilos para el pie de página, "Element Selector */
 footer {
     background-color: #333;
     color: green;
@@ -133,7 +135,7 @@ footer {
     width: 100%;
 }
 
-
+/* Path of elements, "Combinations" */
 footer p {
     margin: 0;
     color: blue;
@@ -142,5 +144,22 @@ footer p {
 p {
     color: red;
     font-weight: bold;
+}
+
+#home {
+    background-color: pink;
+
+}
+
+.divHola{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: black 2px solid;
+    padding-left: 10px; /*Space between words/content and margin of its container*/
+    padding-top: 10px;  /*Space between words/content and margin of its container*/
+    padding-right: 100px;
+    margin-left: 10px; /*Space between margin and the close container*/
+    margin-top: 10px; /*Space between margin and the close container*/
 }
 
